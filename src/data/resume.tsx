@@ -150,7 +150,7 @@ Stack-agnostic by principle, design-driven by instinct. I learn by building, bre
   projects: [
     {
       title: "Hello AI - AI Content Generator",
-      href: "https://hello-ai.vercel.app",
+      href: "https://hello-ai-01.vercel.app",
       dates: "2024",
       active: true,
       description:
