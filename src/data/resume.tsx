@@ -168,7 +168,7 @@ Stack-agnostic by principle, design-driven by instinct. I learn by building, bre
       links: [
         {
           type: "Website",
-          href: "https://hello-ai.vercel.app",
+          href: "https://hello-ai-01.vercel.app",
           icon: <Icons.globe className="size-3" />,
         },
         {
