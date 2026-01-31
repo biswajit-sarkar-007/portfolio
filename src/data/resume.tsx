@@ -78,6 +78,18 @@ Stack-agnostic by principle, design-driven by instinct. I learn by building, bre
   },
 
   work: [
+     {
+      company: "Gluonweb – Web and Technology Developer",
+      href: "https://www.gluonweb.com/",
+      badges: ["On Site"],
+      location: "On Site",
+      title: "Node.js Web Developer",
+      logoUrl: "/guloweb.png",
+      start: "February 2026",
+      end: "Present",
+      description:
+        "I am building here production ready frontend application with responsive design and modern UI/UX and make it interactive with latest technology.",
+    },
     {
       company: "Hacktoberfest '25",
       href: "https://hacktoberfest.com/",
