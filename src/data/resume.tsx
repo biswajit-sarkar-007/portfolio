@@ -64,7 +64,7 @@ Stack-agnostic by principle, design-driven by instinct. I learn by building, bre
       },
       X: {
         name: "X",
-        url: "https://x.com/biswajit007",
+        url: "https://x.com/biswa_sarkar007",
         icon: Icons.x,
         navbar: true,
       },
