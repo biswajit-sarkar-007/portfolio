@@ -37,6 +37,7 @@ Stack-agnostic by principle, design-driven by instinct. I learn by building, bre
     "MongoDB",
     "Firebase",
     "Prisma",
+    "Supabase",
     "AWS",
     "Linux",
     "Vercel",
