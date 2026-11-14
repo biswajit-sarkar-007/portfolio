@@ -78,7 +78,7 @@ Stack-agnostic by principle, design-driven by instinct. I learn by building, bre
   },
 
   work: [
-     {
+    {
       company: "Gluonweb – Web and Technology Developer",
       href: "https://www.gluonweb.com/",
       badges: ["On Site"],
@@ -161,6 +161,77 @@ Stack-agnostic by principle, design-driven by instinct. I learn by building, bre
 
   projects: [
     {
+      title: "SmallClaw - Lightweight Local AI Agent",
+      href: "https://github.com/biswajit-sarkar-007/small-claw",
+      dates: "2026",
+      active: true,
+      description:
+        "Built a lightweight, smaller version of OpenClaw: a personal AI agent with a modular channel adapter layer for chat apps like Gmail, Slack, WhatsApp and GitHub, designed to be extended with controlled computer-access tools.",
+      technologies: [
+        "Node.js",
+        "TypeScript",
+        "LLM Tool Calling",
+        "Channel Adapters"
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/biswajit-sarkar-007/small-claw",
+          icon: <Icons.github className="size-3" />,
+        }
+      ],
+      image: "/small-claw.png",
+      video: "",
+    },
+    {
+      title: "Agentic Workspace - AI Agent Platform",
+      href: "https://github.com/biswajit-sarkar-007/agentic-workspace",
+      dates: "2026",
+      active: true,
+      description:
+        "Building an agentic AI workspace as my final year project, with MCP connectors to external tools, human-in-the-loop approvals for sensitive actions, sandboxed execution and an evaluation suite to measure agent reliability.",
+      technologies: [
+        "Node.js",
+        "TypeScript",
+        "MCP",
+        "Sandboxing",
+        "Agent Evals"
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/biswajit-sarkar-007/agentic-workspace",
+          icon: <Icons.github className="size-3" />,
+        }
+      ],
+      image: "/agentic-workspace.png",
+      video: "",
+    },
+    {
+      title: "Notion MCP Agent - Chat with Your Notion Docs",
+      href: "https://github.com/biswajit-sarkar-007/notion_mcp",
+      dates: "2026",
+      active: true,
+      description:
+        "Rebuilt a Python terminal agent as a JavaScript web app with a minimal UI. It connects to Notion through MCP so you can search and work with your Notion pages in plain language, powered by NVIDIA's free LLM API.",
+      technologies: [
+        "JavaScript",
+        "Node.js",
+        "HTML/CSS",
+        "Notion MCP",
+        "NVIDIA API"
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/biswajit-sarkar-007/notion_mcp",
+          icon: <Icons.github className="size-3" />,
+        }
+      ],
+      image: "/notion-mcp.png",
+      video: "",
+    },
+    {
       title: "Hello AI - AI Content Generator",
       href: "https://hello-ai-01.vercel.app",
       dates: "2024",
@@ -192,96 +263,96 @@ Stack-agnostic by principle, design-driven by instinct. I learn by building, bre
       image: "/hello_ai.png",
       video: "",
     },
-   {
-  title: "Paper – Social Infrastructure Engineering",
-  href: "https://white-theme-web.vercel.app/",
-  dates: "2025",
-  active: true,
-  description:
-    "Designed and built a high-end, architectural social media scheduling and orchestration platform for growth teams and engineers. Focused on infrastructure-grade UI, precision-driven layouts, and scalable visualization for coordinated publishing workflows.",
-  technologies: [
-    "React 19",
-    "TypeScript (Strict Mode)",
-    "Tailwind CSS v4",
-    "Vite 6",
-    "Recharts",
-    "Lucide React"
-  ],
-  links: [
     {
-      type: "Website",
+      title: "Paper – Social Infrastructure Engineering",
       href: "https://white-theme-web.vercel.app/",
-      icon: <Icons.globe className="size-3" />,
+      dates: "2025",
+      active: true,
+      description:
+        "Designed and built a high-end, architectural social media scheduling and orchestration platform for growth teams and engineers. Focused on infrastructure-grade UI, precision-driven layouts, and scalable visualization for coordinated publishing workflows.",
+      technologies: [
+        "React 19",
+        "TypeScript (Strict Mode)",
+        "Tailwind CSS v4",
+        "Vite 6",
+        "Recharts",
+        "Lucide React"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://white-theme-web.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/biswajit-sarkar-007/white-theme-web",
+          icon: <Icons.github className="size-3" />,
+        }
+      ],
+      image: "/paper.png",
+      video: "",
     },
-    {
-      type: "Source",
-      href: "https://github.com/biswajit-sarkar-007/white-theme-web",
-      icon: <Icons.github className="size-3" />,
-    }
-  ],
-  image: "/paper.png",
-  video: "",
-},
 
-{
-  title: "Conductor – Multi-Platform Email Campaign Orchestrator",
-  href: "https://dark-theme-web.vercel.app/",
-  dates: "2025",
-  active: true,
-  description:
-    "Built an industrial-grade control plane for unified email campaign orchestration. Enables organizations to design once and deploy across 15+ ESPs with consistent structure, centralized control, and analytics-ready architecture.",
-  technologies: [
-    "React 19",
-    "TypeScript",
-    "Tailwind CSS v4",
-    "Vite 6",
-    "Inter Font"
-  ],
-  links: [
     {
-      type: "Website",
+      title: "Conductor – Multi-Platform Email Campaign Orchestrator",
       href: "https://dark-theme-web.vercel.app/",
-      icon: <Icons.globe className="size-3" />,
+      dates: "2025",
+      active: true,
+      description:
+        "Built an industrial-grade control plane for unified email campaign orchestration. Enables organizations to design once and deploy across 15+ ESPs with consistent structure, centralized control, and analytics-ready architecture.",
+      technologies: [
+        "React 19",
+        "TypeScript",
+        "Tailwind CSS v4",
+        "Vite 6",
+        "Inter Font"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://dark-theme-web.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/biswajit-sarkar-007/dark-theme-web",
+          icon: <Icons.github className="size-3" />,
+        }
+      ],
+      image: "/conductor.png",
+      video: "",
     },
-    {
-      type: "Source",
-      href: "https://github.com/biswajit-sarkar-007/dark-theme-web",
-      icon: <Icons.github className="size-3" />,
-    }
-  ],
-  image: "/conductor.png",
-  video: "",
-},
 
-{
-  title: "CryptoTrack – Professional Crypto Trading Platform",
-  href: "https://crypto-track-ochre.vercel.app/",
-  dates: "2024–2025",
-  active: true,
-  description:
-    "Developed a professional cryptocurrency tracking and analysis platform featuring real-time market data, advanced charts, and TradingView-powered visualizations for active traders and market analysis.",
-  technologies: [
-    "Next.js",
-    "React",
-    "TypeScript",
-    "Tailwind CSS",
-    "TradingView"
-  ],
-  links: [
     {
-      type: "Website",
+      title: "CryptoTrack – Professional Crypto Trading Platform",
       href: "https://crypto-track-ochre.vercel.app/",
-      icon: <Icons.globe className="size-3" />,
+      dates: "2024–2025",
+      active: true,
+      description:
+        "Developed a professional cryptocurrency tracking and analysis platform featuring real-time market data, advanced charts, and TradingView-powered visualizations for active traders and market analysis.",
+      technologies: [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "TradingView"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://crypto-track-ochre.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/biswajit-sarkar-007/CryptoTrack",
+          icon: <Icons.github className="size-3" />,
+        }
+      ],
+      image: "/crypto.png",
+      video: "",
     },
-    {
-      type: "Source",
-      href: "https://github.com/biswajit-sarkar-007/CryptoTrack",
-      icon: <Icons.github className="size-3" />,
-    }
-  ],
-  image: "/crypto.png",
-  video: "",
-},
 
     {
       title: "BudgetBee - Expense Tracker",
